@@ -9,9 +9,14 @@ import java.util.*;
                
                // factorial of given number
                for(int i = 1; i<=n; i++){
-                f = f * i;
+                f = f + i;
                }
                System.out.println("The factorial of " +n+" is "+f);
+
+
+
+
+
                
             }
         }
