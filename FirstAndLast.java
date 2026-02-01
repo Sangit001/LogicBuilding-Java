@@ -1,4 +1,3 @@
-import java.util.*;
 
 /*
         If we mode(%) any number with 10 then the reminder
@@ -16,37 +15,8 @@ import java.util.*;
 
 //  Write a program to print the last number of 1054 and print the first number.
 
-        class Logic{
-            public void length();
-            public void front();
-            public void back();
 
-            int diviser;
-            int result;
-            int length;
-        }
-        class Display extends Logic{
-
-            void length(){
-                while (number > 0){
-                    number = number/10;
-                    length ++;
-                    System.out.println(length);
-                }
-                
-            }
-            void back(){
-                int back = number % 10;
-                System.out.println("The last number is of "+number+" is: " +back);
-                
-            }
-            void front(){
-                int front = number/length
-            }
-
-        }
-
-        public class Class1{
+        public class FirstAndLast{
 
             public static void main(String[] args){
                 
@@ -80,9 +50,6 @@ import java.util.*;
             //    int finalResult = (convert/10);
             //    System.out.println("The first number of "+ number + " is" + finalResult);
 
-            int number = 12345;
-            Display d = new Display();
-            display.length();
 
 
 

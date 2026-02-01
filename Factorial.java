@@ -1,6 +1,6 @@
 import java.util.*;
 // Make a factorial of a given number
-        public class Class2{
+        public class Factorial{
             public static void main(String[] args){
         // first we have to ask from user
         Scanner sc = new Scanner(System.in);
