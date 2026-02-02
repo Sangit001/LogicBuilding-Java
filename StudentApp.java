@@ -4,7 +4,7 @@ class Student {
     protected int rollNo;
     protected int marks1, marks2, marks3;
 
-    // Constructor
+    // Creating Constructor
     public Student(String name, int rollNo, int m1, int m2, int m3) {
         this.name = name;
         this.rollNo = rollNo;
@@ -13,7 +13,7 @@ class Student {
         this.marks3 = m3;
     }
 
-    // Method to calculate total
+    // Method to calculate total ammount
     public int getTotalMarks() {
         return marks1 + marks2 + marks3;
     }
@@ -32,7 +32,7 @@ class Student {
     }
 }
 
-// Child class
+// Child class inheritance
 class GradeStudent extends Student {
 
     public GradeStudent(String name, int rollNo, int m1, int m2, int m3) {
