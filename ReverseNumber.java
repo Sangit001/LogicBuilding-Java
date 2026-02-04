@@ -1,7 +1,9 @@
-
+import java.util.Scanner;
     public class ReverseNumber {
     public static void main(String[] args) {
-        int num = 12345;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Length of a number must be 4");
+        int num = sc.nextInt();
         int rev = 0;
 
         while (num != 0) {
